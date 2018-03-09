@@ -1,3 +1,5 @@
+# basic layout for gui-based pdf merger
+
 from tkinter import *
 from tkinter.filedialog import *
 import PyPDF2

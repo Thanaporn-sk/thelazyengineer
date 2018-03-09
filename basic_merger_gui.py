@@ -1,3 +1,6 @@
+# horribly duplicated but provides a gui interface to merge two pdfs together.
+# can't remove pdfs and can potentially add a bunch, but oh well.
+
 from tkinter import *
 from tkinter.filedialog import *
 import PyPDF2
