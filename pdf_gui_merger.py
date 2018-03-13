@@ -74,12 +74,12 @@ Label(root,text='Pages: ').grid(row=2,column=2)
 Label(root,textvariable=pages).grid(row=2,column=3)
 
 Label(root,text='Start: ').grid(row=3,column=2)
-s1 = Entry(root,textvariable=start,width=3)
-s1.grid(row=3,column=3)
+s = Entry(root,textvariable=start,width=3)
+s.grid(row=3,column=3)
 
 Label(root,text='End: ').grid(row=4,column=2)
-e1 = Entry(root,textvariable=end,width=3)
-e1.grid(row=4,column=3)
+e = Entry(root,textvariable=end,width=3)
+e.grid(row=4,column=3)
 
 
 Button(root,text='Save PDF As: ', command=save_pdf,width=10).grid(row=5,column=0,columnspan=4)
