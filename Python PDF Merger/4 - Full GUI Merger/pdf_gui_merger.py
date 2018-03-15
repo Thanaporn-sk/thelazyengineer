@@ -30,9 +30,9 @@ def remove():
     listbox.delete(ANCHOR)
     print(pdf_list)
 
-def display():
+def display(*args):
     index = int(listbox.curselection()[0])
-    value = w.get(index)
+    value = listbox.get(index)
     filename.set(value)
     pages.set(pdf_list[index].pages)
     start.set(pdf_list[index].start)
